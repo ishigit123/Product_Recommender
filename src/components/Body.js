@@ -69,6 +69,7 @@ const Body = ({ searchText }) => {
         className="sort-by-dropdown"
         onChange={(e) => handleSortByChange(e.target.value)}
       >
+        
         <option value="">Sort By Category</option>
         <option value="female">Women</option>
         <option value="male">Men</option>
