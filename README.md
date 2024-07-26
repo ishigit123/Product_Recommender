@@ -10,7 +10,7 @@ Welcome to My Fashion Website, a quirky and stylish online store where you can f
 - **Load More Products**: Continuously load more products as you scroll down or click the "Load More Products" button.
 - **Responsive Design**: Optimized for viewing on various devices including desktops, tablets, and mobile phones.
 
-## Technologies Used![Screenshot 2024-07-26 200759](https://github.com/user-attachments/assets/6a6b1d1a-e4ed-46e5-adf3-e7ef224d307d)
+## Technologies Used
 
 
 - **React**: JavaScript library for building user interfaces.
