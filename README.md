@@ -1,4 +1,4 @@
-# My Fashion Website
+# ShopStreet
 
 Welcome to My Fashion Website, a quirky and stylish online store where you can find the latest trends in fashion for both men and women. Our website offers a seamless shopping experience with features like category sorting, search functionality, and the ability to load more products as you browse.
 
