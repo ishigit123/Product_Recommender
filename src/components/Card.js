@@ -1,18 +1,16 @@
-import ToggleButton from "./Toggle";
-const Card = (props) => {
-    const { product } = props;
-    return (
-      <div>
-        <div className="prod-card">
-          <img
-            src={product.product_metadata.image_url}
-            alt="Product here"
-          />
-          <h2>{product.product_metadata.name}</h2>
-          <h3>{product.product_metadata.base_color}</h3>
-          <ToggleButton/>
-        </div>
+const Card = ({ product, onViewSimilar, isSimilarView }) => {
+  return (
+    <div>
+      <div className="prod-card">
+        <img src={product.img_url} alt="Product" />
+        <h2>{product.name}</h2>
+        <h3>{product.category}</h3>
+        <button onClick={() => onViewSimilar(product.category)}>
+          {isSimilarView ? "Hide similar" : "View similar"}
+        </button>
       </div>
-    );
-  };
-  export default Card;
+    </div>
+  );
+};
+
+export default Card;

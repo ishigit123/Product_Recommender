@@ -1,11 +1,13 @@
-import logo from './logo.png';
+import logo from './logo_product1.png';
 const Header = ({setSearchText}) =>{
     // const[searchText,setSearchText] = useState("");
     return(
         <div className="navbar-container"> 
             <img src={logo} alt="logo"/>
             <ul>
-                <li>Navbar</li>
+                <li><a href='https://github.com/ishigit123/product_recommender'target="_blank" rel="noopener noreferrer">Code
+                </a>
+                </li>
                 <li>Home</li>
                 <li>About us</li>
             </ul>
